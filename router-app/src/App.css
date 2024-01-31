@@ -1,0 +1,37 @@
+#root {
+  text-align: center;
+  font-size: larger;
+}
+.navBar{
+  background-color: rgba(10, 136, 178, 0.644);
+  padding: 10px;
+  color: blue;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.flex-inside{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flex a{
+  color: rgb(21, 6, 94);
+  text-decoration: none;
+  &:hover{
+    color: blueviolet;
+  }
+}
+.bodyContainer{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  border: 2px solid goldenrod;
+  font-size: 80px;
+  background-size:cover;
+}
+
